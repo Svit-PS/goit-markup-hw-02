@@ -145,7 +145,7 @@ li {
   background-color: var(--secondary-bcg-color);
 }
 
-.team .team-title {
+.team-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -153,7 +153,7 @@ li {
   text-align: center;
 }
 
-.team team-text {
+.team-text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -205,7 +205,7 @@ li {
   background-color: var(--accent-txt-color);
 }
 
-.list-portfolio .portfolio-title {
+.portfolio-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -213,7 +213,7 @@ li {
   text-align: left;
 }
 
-.list-portfolio p {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
