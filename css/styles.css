@@ -26,6 +26,11 @@ body {
   text-decoration: none;
 }
 
+.link:hover,
+.link:focus {
+  color: var(--accent-txt-color);
+}
+
 li {
   list-style-type: none;
 }
@@ -47,6 +52,12 @@ li {
   font-weight: 400;
 }
 
+.logo3 {
+  color: var(--white-txt-color);
+  /* font-family: Oleo Script; */
+  font-weight: 400;
+}
+
 .accent-link {
   color: var(--accent-txt-color);
 }
@@ -59,9 +70,13 @@ li {
   text-align: left;
 }
 
-.link-contact:hover,
-.link-contact:focus {
-  color: var(--accent-txt-color);
+.link-contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: var(--secondary-txt-color);
 }
 
 /* HERO */
@@ -76,6 +91,7 @@ li {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .btn {
@@ -99,7 +115,7 @@ li {
 }
 
 /* advantages */
-.advantages h3 {
+.advantages .dvan-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -107,7 +123,7 @@ li {
   text-align: left;
 }
 
-.advantages p {
+.advantages .advan-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -124,7 +140,12 @@ li {
   text-align: center;
 }
 
-.team h3 {
+/* Team */
+.team {
+  background-color: var(--secondary-bcg-color);
+}
+
+.team .team-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -132,7 +153,7 @@ li {
   text-align: center;
 }
 
-.team p {
+.team team-text {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -180,11 +201,11 @@ li {
 
 .portfolio-btn:focus,
 .portfolio-btn:hover {
-    color: var(--white-txt-color);
-    background-color: var(--accent-txt-color);
+  color: var(--white-txt-color);
+  background-color: var(--accent-txt-color);
 }
 
-.list-portfolio h2 {
+.list-portfolio .portfolio-title {
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -198,4 +219,8 @@ li {
   letter-spacing: 0.03em;
   text-align: left;
   color: var(--secondary-txt-color);
+}
+
+.address {
+  font-style: normal;
 }
