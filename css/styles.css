@@ -115,7 +115,7 @@ li {
 }
 
 /* advantages */
-.advantages .dvan-title {
+.advan-title {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -123,7 +123,7 @@ li {
   text-align: left;
 }
 
-.advantages .advan-text {
+.advan-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -203,6 +203,11 @@ li {
 .portfolio-btn:hover {
   color: var(--white-txt-color);
   background-color: var(--accent-txt-color);
+}
+
+.portfolio-link {
+  color: currentColor;
+  text-decoration: none;
 }
 
 .portfolio-title {
